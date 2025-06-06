@@ -1,0 +1,45 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+.navbar-brand span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.navbar-text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.sidebar{
+    min-height: 100vh;
+    background-color: plum;
+    padding-top: 20px;
+    box-shadow: 0 0.125rem 0.25rem salmon;
+}
+.sidebar .nav-link{
+    color:  black;
+    padding: 12px 20px;
+    border-left: 12px solid transparent;
+    font-size: 1.1em;
+}
+.sidebar .nav-link.active{
+    color: black;
+    border-left-color: gray;
+    background-color: beige;
+    font-weight: bold;
+}
+.main-content{
+    background-image: url(Aph.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    color: purple;
+    justify-content: center;
+    align-items: center;
+}
